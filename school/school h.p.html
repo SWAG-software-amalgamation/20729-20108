@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html><title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">	
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="./page.js"></script>
+
+	<head>
+		
+		<style>
+*{margin:0;padding:0}
+html, body{overflow-y:hidden}
+ul, ol{list-style:none}
+
+			
+			
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  height: 100px;
+ 
+  color: #FFFFFF;
+  background: #36BFFF;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;	
+  padding-left:10px
+			}
+.content{}
+.content div{position:relative; }
+ 
+			.content .cnt01{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt02{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt03{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt04{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt05{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt06{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			.content .cnt07{background-color:#000000; color:#ffffff;padding-top:120px;padding-left:10px; padding-right:10px;padding-bottom:5%}
+			
+.nav{position:fixed;z-index:1;top:0;width:100%}
+.header{}
+.header:after{content:"";display:block;clear:both}
+
+
+.header li a{display:block;height:45px;text-align:center;font-size:20px;text-decoration:none;background-color:#fff;color:#000}
+
+			.button {
+				color:#000;background:#fff;height:50px;width:100% 
+			}
+			.h1 {font-size:15px; left:30px; padding-top:5px;margin-bottom:30px;padding-top:120px
+				.img {float:left ;}
+			}
+			
+			
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+  z-index: 2;
+	width:100% ; height:50%
+}
+.image2 {
+  position: absolute;
+
+	top: 1.5%;
+	left: 1%;
+  z-index: 1;
+  width:3%; height:auto;
+}			
+	
+			
+			
+
+		</style>
+	</head> 
+	<body>
+		<!-- Sidebar -->
+	
+
+
+		
+<div class="nav">
+    <ul>
+
+		
+		
+		<button onclick="w3_open()">  ☰</button>
+
+    <h1>SWAG</h1>
+    </ul>
+</div>
+<!-- Page Content -->
+<div class="header">
+
+<div class="w3-sidebar w3-bar-block " style="display:none;width:15%;top;10%;" id="mySidebar" >
+<button onclick="w3_close()" class="w3-bar-item w3-large"> &times;닫기</button>
+	<ul>
+
+  <li class="on" class="a"><a href="#">메인</a></li>
+  <li><a href="#">동아리 정보</a></li>
+  <button class="button" onclick="myAccFunc()"> 일정 안내 <i class="fa fa-caret-down"></i></button>
+  <div id="Acc" class="w3-hide w3-black w3-card">
+ <li><a href="#" style="display:none"></a></li>
+<li><a href="#" style="display:none"></a></li> 
+	  <li><a href="#">전시회</a></li>
+	  <li><a href="#">일정표</a></li>
+	  
+	  
+  </div>
+  <button class="button" onclick="myDropFunc()">자료실 <i class="fa fa-caret-down"></i></button>
+  <div id="Drop" class="w3-hide w3-black w3-card">
+    
+	  <li><a href="#" style="display:none"></a></li>
+    <li><a href="#" style="display:none"></a></li>
+	  <li><a href="#" style="display:none"></a></li>
+	  <li><a href="#" style="display:none"></a></li>
+	  
+	<li><a href="#">이전 활동</a></li>
+    <li><a href="#">사이트</a></li>
+ 
+		
+		</div>
+ <li><a href="#"></a></li>
+
+  
+  
+
+	</ul>
+</div>	
+
+
+</div>
+		
+
+	<div class="content">
+   <div class="cnt01">
+
+	   <h1>
+	MAIN PAGE
+		</h1>
+		<P>
+			sag 홈페이지 에서는 동아리의 활동,일정등을 정리해 놓은 시이트로 동아리와 관련된 정보를 한페이지에서 확이 가능하도록 정리 해놓은 사이트 입니다
+	   </P>
+
+	   
+		</div>
+	  
+    <div class="cnt02">
+		<h1>
+			동아리 정보
+		</h1>
+		<p>
+			
+		
+		swag는 소프트웨어에 대하여 탐구 및 자신만의 프로그램 제작과 개발을 목적으로 한 동아리로, 동아리의 이름인 swag는 소프트웨어(software)에서 약자 SW, 융합(amalgamation)에서 약자 AG를 합쳐 소프트웨어 융합을 뜻하는 SWAG의 별칭입니다.
+		</p>
+		</div>
+    <div class="cnt03">
+		<h1>
+			전시회
+		</h1>
+		<P>
+			
+		swag에서는 1년에 한번씩 전시회를 실시하여 동아리 부원들의 1년동안의 작품,수업의 결과물들을 발표합니다.
+		</P>
+		</div>
+    <div class="cnt04">
+		<h1>
+			일정표
+		</h1>
+	<div class="parent">
+  		<img class="image1" src="line.png" alt="대체용 텍스트"   />
+  		<img class="image2" src="dot.png" alt="대체용 텍스트" />
+  		<img class="image3" src="dot.png" alt="대체용 텍스트" />
+		<img class="image4" src="dot.png" alt="대체용 텍스트" />
+		<img class="image5" src="dot.png" alt="대체용 텍스트" />
+		<img class="image6" src="dot.png" alt="대체용 텍스트"/>
+		<img class="image7" src="dot.png" alt="대체용 텍스트" />
+		<img class="image8" src="dot.png" alt="대체용 텍스트" />
+		<img class="image9" src="dot.png" alt="대체용 텍스트" />
+		<img class="image10" src="dot.png" alt="대체용 텍스트" />
+		<img class="image11" src="dot.png" alt="대체용 텍스트" />
+		<img class="image12" src="dot.png" alt="대체용 텍스트" />
+		<img class="image13" src="dot.png" alt="대체용 텍스트" />
+		<img class="image14" src="dot.png" alt="대체용 텍스트"/>
+		<img class="image15" src="dot.png" alt="대체용 텍스트" />
+		<img class="image16" src="dot.png" alt="대체용 텍스트" />
+</div>
+
+	
+		
+		</div>
+    <div class="cnt05">
+		<h1>
+			이전 활동(역사)
+		</h1>
+		<p>2020 동아리 설립</p>
+		
+		<p>2021 </p>
+		
+		<p>2022 현재</p>
+		
+		</div>
+    <div class="cnt06">
+		<h1>
+			사이트
+		</h1>
+		
+		
+<div>
+	<div>
+			<a href="https://drive.google.com/drive/u/0/folders/1hQqA3t1HCG6CM2lhM6-X74jOxh__sZkU" target="_blank">
+			<img src="g.d button.png" alt="대체용 텍스트" width=12% max-height=auto max-width=auto > 
+			</a>
+	</div>
+	
+	<p>
+		구글 드라이브 에서는 활동 내역,활동의 결과물들을 보관하고 있으며 누구나 열람해서 볼수 있습니다
+		</p>
+		</div>	
+		
+	
+<div>
+		 <a href="https://" target="_blank">
+			<img src="p.d button.png" alt="대체용 텍스트"width=12% max-height=auto max-width=auto>
+			
+		</a>
+	<p>
+		동아리 패들렛에서는 동아리 홍보 목적으로 나열된 정보들을 보며 swag에서 하는 활동들을 볼수 있습니다
+		</p>
+
+		</div>
+	<div>
+		
+		
+		<a href="https://" target="_blank">
+			<img src="g.t button.png" alt="대체용 텍스트" width=12% max-height=auto max-width=auto >
+			
+		</a>
+<div>
+	메타버스 게더타운을 이용한 동아리 공간에서 전시된 작품들을 감상해 보세요
+		</div>
+		
+		
+		</div>
+ </div>
+</div>
+
+		
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script>
+function myAccFunc() {
+  var x = document.getElementById("Acc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-gray";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-gray", "");
+  }
+}
+
+function myDropFunc() {
+  var x = document.getElementById("Drop");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-gray";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-gray", "");
+  }
+}
+</script>
+	</body>
+</html> 
