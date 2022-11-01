@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=e2jIBtI3LzTkvaPhqtRxkTKuGdH0vgaliyjeYEn3fFAwe2BgwvVfy80z0BakmXIFQ1XnlL6tdISSnLxNVZxIlDdvVcczU0MEKYDndLBj4VKIgtaI6WO6396__7coKVJsPh6sYyMwjnSLEmhdGg_PBQee2_KuGTcu1Vd3KFJMLkGcvKRtISjorJIoQirZaJcIMxboOn5aoxioV7weOYwJsU8q7SHwRxoOlgA_7Ug3ueBD6NYRm3UfzcgK2BYYM0S8yEPJvgOTbS6vttVsnkLALGxB_yp2YWEaELujCBVafiOTnQxBA_zG9eod9SWigEGmj12G6zwIlN-mJHNUCvCnbg" charset="UTF-8"></script><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="./page.js"></script>
+
+		
+<style>	
+*{margin:0;padding:0;}
+	html{background-color:#777}
+ul, ol{list-style:none}
+		
+		
+.nav {
+
+
+   display: block;
+  width: 100vw;
+	max-width: 177.78vh;
+  min-width: 500px;
+  margin: 0 auto;
+
+  top: 0;
+  left: 0;
+  right: 0;
+margin: 0 auto;
+  height: 100px;
+  z-index:5;
+  color: #FFFFFF;
+background-color:#aaa;
+  background-size : cover;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: top;	
+  padding-left:10px;
+ 
+			}
+.content{  
+	
+	 }
+.content div{position:relative;
+
+
+
+}
+
+	.tb{
+		background-color:#fff;
+		padding:1vw;
+	}	
+
+.a{
+	padding-bottom:7vw;padding-top:20px;padding-left:10px; padding-right:30px;background-color:#ffddee;
+} 
+.b{
+	padding-bottom:7vw;padding-top:20px;padding-left:10px; padding-right:30px;background-color:#ddeeff;
+} 
+.c{
+	padding-bottom:7vw;padding-top:20px;padding-left:10px; padding-right:30px;background-color:#ffffdd;
+} 
+			.content .cnt01{min-height:300px;background-color:#eeeee0; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:100px}
+			.content .cnt02{min-height:300px;background-color:#e0e0ee; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:120px}
+			.content .cnt03{min-height:400px;background-color:#ddf0f0; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:36vw}
+			.content .cnt04{min-height:400px;background-color:#f0eef0; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:100px}
+			.content .cnt05{min-height:400px;background-color:#e0e0dd; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:100px}
+			.content .cnt06{min-height:400px;background-color:#ffffff; color:#000;padding-top:1vw;padding-left:2%; padding-right:3%;padding-bottom:100px}
+			
+			
+
+
+			.button {
+				color:#000;background:#aaa;height:50px;width:100% 
+			}
+.hea {font-size:50px; 
+
+	margin-bottom:10px;
+	font-family: 'NeoDunggeunmo';
+	border-color:#fff;
+	border-bottom:dashed;
+	}
+.bon{
+		font-size:20px; 
+	font-family: 'NeoDunggeunmo';
+	position:relative;
+
+	}
+			
+			
+
+		
+
+.container {
+
+   display: block;
+  width: 100vw;
+  height: 56.25vw;
+  max-height: 100vw;
+  max-width: 177.78vh;
+min-width:500px;
+min-height:100px;
+  margin: 0 auto;
+
+
+
+
+}
+.box{ width:100%; height:60px;overflow: auto; background-color:#eee;
+  white-space: nowrap;}
+
+
+
+.main input[type=radio] {
+	display: none;
+}
+#tab-1:checked ~ .tab label:nth-child(1),
+#tab-2:checked ~ .tab label:nth-child(2),
+#tab-3:checked ~ .tab label:nth-child(3),
+#tab-4:checked ~ .tab label:nth-child(4),
+#tab-5:checked ~ .tab label:nth-child(5),
+#tab-6:checked ~ .tab label:nth-child(6),
+#tab-7:checked ~ .tab label:nth-child(7),
+#tab-8:checked ~ .tab label:nth-child(8),
+#tab-9:checked ~ .tab label:nth-child(9),
+#tab-10:checked ~ .tab label:nth-child(10),
+#tab-11:checked ~ .tab label:nth-child(11),
+#tab-12:checked ~ .tab label:nth-child(12),
+#tab-13:checked ~ .tab label:nth-child(13),
+#tab-14:checked ~ .tab label:nth-child(14)
+{
+
+	background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
+.contents > div {
+	display: none;
+}
+#tab-1:checked ~ .contents div:nth-child(1),
+#tab-2:checked ~ .contents div:nth-child(2),
+#tab-3:checked ~ .contents div:nth-child(3),
+#tab-4:checked ~ .contents div:nth-child(4),
+#tab-5:checked ~ .contents div:nth-child(5),
+#tab-6:checked ~ .contents div:nth-child(6),
+#tab-7:checked ~ .contents div:nth-child(7),
+#tab-8:checked ~ .contents div:nth-child(8),
+#tab-9:checked ~ .contents div:nth-child(9),
+#tab-10:checked ~ .contents div:nth-child(10),
+#tab-11:checked ~ .contents div:nth-child(11),
+#tab-12:checked ~ .contents div:nth-child(12),
+#tab-13:checked ~ .contents div:nth-child(13),
+#tab-14:checked ~ .contents div:nth-child(14)
+{
+
+
+	display: block;
+}
+}
+.main {
+  margin: 0 auto;
+
+  max-width: 100%;
+}
+.tab {
+  overflow: hidden;
+}
+.tab label {
+    font-size: 18px;
+    cursor: pointer;
+    float: left;
+
+    text-align: center;
+    padding: 15px ;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+	font-family: 'NeoDunggeunmo';
+}
+.contents {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 250px;
+	font-family: 'NeoDunggeunmo';
+}
+.contents > div{
+   padding: 30px;
+   line-height: 1.5;
+   font-size: 17px;
+}
+  
+</style>
+		<!-- Sidebar -->
+	
+
+
+</head>
+
+		
+<!-- Page Content -->
+<body>
+
+
+
+		
+<div class="container">	
+<div class="nav">
+    
+<div class="pyo">
+	swag
+	</div>
+
+</div>
+	<div class="content">
+   <div class="cnt01">
+
+	   <div class="hea">
+	MAIN PAGE
+	   </div>
+		<div class=bon>
+			SWAG 홈페이지에는 동아리의 활동,일정 등이 정리되어 있으며, 동아리와 관련된 정보를 한페이지에서 확인 가능하도록 정리 해놓은 사이트 입니다
+	   </div>
+
+	   
+		</div>
+	  
+    <div class="cnt02">
+		<div class="hea">
+			동아리 정보
+		</div>
+		
+		<img src="swag2022.png" alt="대체용 텍스트" width=150px vertical-align="middle" align="left">
+		<div class=bon>	
+		swag는 소프트웨어에 대하여 탐구 및 자신만의 프로그램 제작과 개발을 목적으로 한 동아리로, 동아리의 이름인 swag는 소프트웨어(software)에서 약자 SW, 융합(amalgamation)에서 약자 AG를 합쳐 소프트웨어 융합을 뜻하는 SWAG의 별칭입니다.
+		</div>
+		</div>
+    <div class="cnt03">
+		<div class="hea">
+			전시회
+		</div>
+		<img src="swagpos.png" alt="대체용 텍스트" width=30%; min-height=400px max-height=600px;  vertical-align="middle" align="left">
+<div class=bon>
+		swag에서는 1년에 한번씩 전시회를 실시하여 동아리 부원들의 1년동안의 작품,수업의 결과물들을 발표합니다.
+		</div>
+		</div>
+    <div class="cnt04">
+		<div class="hea">
+			일정표
+		</div>
+
+	<div class="main">
+  <input type="radio" id="tab-1" name="show" checked/>
+  <input type="radio" id="tab-2" name="show" />
+  <input type="radio" id="tab-3" name="show" />
+  <input type="radio" id="tab-4" name="show" />
+  <input type="radio" id="tab-5" name="show" />
+  <input type="radio" id="tab-6" name="show" />
+  <input type="radio" id="tab-7" name="show" />
+  <input type="radio" id="tab-8" name="show" />
+  <input type="radio" id="tab-9" name="show" />
+  <input type="radio" id="tab-10" name="show" />
+  <input type="radio" id="tab-11" name="show" />
+  <input type="radio" id="tab-12" name="show" />
+  <input type="radio" id="tab-13" name="show" />
+  <input type="radio" id="tab-14" name="show" />
+ 
+
+	
+
+  <div class="tab">
+    <div class="box">
+		
+		<label for="tab-1">3/23</label>
+	  <label for="tab-2">4/6</label>
+	  <label for="tab-3">5/4</label>
+	  <label for="tab-4">5/18</label>
+	  <label for="tab-5">5/31</label>
+	  <label for="tab-6">6/8</label>
+	  <label for="tab-7">7/13</label>
+	  <label for="tab-8">8/24</label>
+	  <label for="tab-9">9/7</label>
+	  <label for="tab-10">9/21</label>
+	  <label for="tab-11">10/5</label>
+	  <label for="tab-12">11/2</label>
+	  <label for="tab-13">11/30</label>
+	  <label for="tab-14">12/21</label>
+
+	  </div>
+
+
+  </div>
+  <div class="contents">
+    <div class="contents-dis">
+     •사전 안전교육
+파이썬 개발 환경 조성 방법 학습
+    </div>
+    <div class="contents-dis">
+     • thinkercad를 이용한 3D모델링하는 방법 공부하기
+    </div>
+    <div class="contents-dis">
+    • thinkercad를 이용하여 자신만에 3D모델 만들기
+    </div>
+    <div class="contents-dis">
+      • 친구들이 만든 3D모델 구경하기
+    </div>
+    <div class="contents-dis">
+      • 프로그래밍 부분 분담하기
+    </div>
+    <div class="contents-dis">
+      • 개발에 필요한 프로그래밍 공부하기
+    </div>
+    <div class="contents-dis">
+      • 자신만의 웹사이트 개발하기
+    </div>
+    <div class="contents-dis">
+      • pygame를 이용하여 자신만에 게임 만들기
+    </div>
+    <div class="contents-dis">
+     • pandas와 matplotlib 공부하기
+    </div>
+    <div class="contents-dis">
+      • 가온 계단 발표 자료 만들기
+    </div>
+    <div class="contents-dis">
+     • 가온 계단 발표 자료 중간 점검하기
+    </div>
+    <div class="contents-dis">
+    • 가온 계단 발표 준비하기
+    </div>
+    <div class="contents-dis">
+     • 가온 게단 발표 마지막 점검 및 수정하기
+    </div>
+    <div class="contents-dis">
+    • 동아리 활동 총정리 및 평가 역할 분담
+    </div>
+
+		</div>
+    </div>
+
+
+	
+		
+		</div>
+    <div class="cnt05">
+		<div class="hea">
+			이전 활동(역사)
+		</div>
+		<div class=bon>
+			2020년
+		</div>
+		<div class=bon>
+			- 동아리 설립, 1회 전시회
+		</div>
+		<br>
+		<div class=bon>
+			2021년
+		</div>
+		<div class=bon>
+			- 오렌지, 앱인벤터, 전시회(코로나로 인한 취소)
+		</div>
+		<br>
+		<div class=bon>
+			2022년 - 현재
+		</div>
+		<div class=bon>
+			-3d모델링, 웹페이지 개발, 2회 전시회
+		</div>
+		<br>
+		</div>
+    <div class="cnt06">
+		<div class="hea">
+			사이트
+		</div>
+		
+		
+<div>
+	<br>
+<div class='a'>
+	<a href="https://drive.google.com/drive/u/0/folders/1hQqA3t1HCG6CM2lhM6-X74jOxh__sZkU" target="_blank">
+			<img src="g.d button.png" alt="대체용 텍스트" width=10%    align="left"> 
+	
+	</a>
+	<div class=bon>
+	구글 드라이브 에서는 활동 내역,활동의 결과물들을 보관하고 있으며 누구나 열람해서 볼수 있습니다		
+	</div>
+
+	</div>
+<br>
+<div class='b'>
+	 <a href="https://padlet.com/ahae291/6pm1x3lbt8clq23n" target="_blank">
+			<img src="p.d button.png" alt="대체용 텍스트"width=10% align="left">
+			
+		</a>
+	<div class=bon>
+	동아리 패들렛에서는 동아리 홍보 목적으로 나열된 정보들을 보며 swag에서 하는 활동들을 볼수 있습니다
+	</div>
+	</div>
+<br>
+<div class='c'>
+		<a href="https://gather.town/invite?token=n1R2o57E7o7zmsbke73rMeJ5nCcmrp-k" target="_blank">
+			<img src="g.t button.png" alt="대체용 텍스트" width=10%   align="left" >
+			
+		</a>
+	<div class=bon>
+	메타버스 게더타운을 이용한 동아리 공간에서 전시된 작품들을 감상해 보세요
+	</div>
+		
+	</div>
+		
+		
+		
+		
+		</div>
+ </div>
+</div>
+		</div>
+
+
+	</body>
+	</html>
